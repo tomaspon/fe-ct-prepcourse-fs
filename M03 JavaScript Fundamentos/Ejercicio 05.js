@@ -13,7 +13,7 @@ function esPositivo(num) {
    }  else if (num < 0)  
    {return "Es negativo";
    }  else (num == 0)
-   {return false}
+    return false
 }  
 
 function agregarSimboloExclamacion(str) {
@@ -64,7 +64,6 @@ function deEuroAdolar(euro) {
    // Supongamos que 1 euro equivale a 1.20 dólares.
    // Debes calcular el valor recibido como argumento pasándolo a dolares.
    // Tu código: 
-   
  var dolar=(1.20)
   return (dolar * euro) 
 }

@@ -12,7 +12,7 @@ function devolverString(string) {
 function suma(x, y) {
    // Retorna el resultado de su suma.
    // Tu código:
-   return (x + y);
+   return (x + y)
 }
 
 function resta(x, y) {
