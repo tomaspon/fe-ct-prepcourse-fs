@@ -3,22 +3,41 @@
 function devolverPrimerElemento(array) {
    // Retornar el primer elemento del arreglo recibido por parámetro.
    // Tu código:
+   var listaDeCompras = [];
+   listaDeCompras [1] = "Tomate";
+   listaDeCompras [3] = "Lechuga";
+   listaDeCompras [0] = "Huevos";{
+      return array[0];
+   }
 }
-
 function devolverUltimoElemento(array) {
    // Retornar el último elemento del arreglo recibido por parámetro.
    // Tu código:
+   var ultimoElemento = array[array.length -1];
+   return ultimoElemento;
+
 }
 
 function obtenerLargoDelArray(array) {
    // Retornar la longitud del arreglo recibido por parámetro.
    // Tu código:
+   var listaDeCompras = [];
+   listaDeCompras [1] = "Tomate";
+   listaDeCompras [3] = "Lechuga";
+   listaDeCompras [0] = "Huevos";{
+      return array.length;
 }
-
+}
 function incrementarPorUno(array) {
    // El arreglo recibido por parámetro contiene números.
    // Retornar un arreglo con los elementos incrementados en +1.
    // Tu código:
+var listaDeCompras = [];
+   listaDeCompras [1] = "Tomate";
+   listaDeCompras [3] = "Lechuga";
+   listaDeCompras [0] = "Huevos";
+let primero = listaDeCompras[1]
+console.log(primero)
 }
 
 function agregarItemAlFinalDelArray(array, elemento) {
