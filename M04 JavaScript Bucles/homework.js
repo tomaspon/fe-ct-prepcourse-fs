@@ -112,8 +112,6 @@ function esEntero(num) {
    } else {
       return false
    }
-   
-
 }
 
 function fizzBuzz(num) {
@@ -132,7 +130,6 @@ function fizzBuzz(num) {
       return false
    }
    }
-
 
 function operadoresLogicos(num1, num2, num3) {
    // La función recibe tres números distintos.
@@ -199,14 +196,16 @@ function doWhile(num) {
    // Retornar el valor final.
    // Utilizar el bucle Do-While.
    // Tu código:
+
    var i = 0;
-   var num = 200
+   
    do
    {
       num = num + 5;
       i++;
    } while (i < 8);
    return num;
+
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
